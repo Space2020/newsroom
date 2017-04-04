@@ -1,7 +1,11 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #F2F2F2;
+  font-size: 16px;
+  font-family: 'Palanquin', sans-serif;
 }
+
 
 .main{
   background-image: url("https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg");
@@ -25,12 +29,19 @@ header{
 }
 
 .main h1{
-  font-size: 5rem;
+  font-size: 3.75rem;
+  font-weight: 700;
 }
 
 .main h2{
-  font-size: 2rem;
-  font-weight: 300;
+  padding-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 2;
+  font-weight: 100;
+}
+
+.main .col-md-5{
+  padding-top: 1rem;
 }
 
 span{
@@ -41,9 +52,37 @@ span{
   background-color: #121A3E;
 }
 
+.supporting{
+  margin: 5rem auto;
+}
+
 .supporting .col-md-4{
   background-color: #152230;
   color: #fff;
+  padding-bottom: 2rem;
+}
+
+.supporting .col-md-8{
+  background-color: #fff;
+  padding-bottom: 2rem;
+}
+
+.supporting h5{
+  color: #666666;
+}
+
+.supporting h4{
+  padding: 0 0 1.5rem 0;
+}
+
+.supporting h3{
+  font-weight: 700;
+  padding: 2rem 0 2rem 0;
+}
+
+.supporting .row{
+  padding: 0;
+  margin: 0;
 }
 
 .menu li{
@@ -75,7 +114,11 @@ span{
 }
 
 .main h1{
+  font-size:
+}
 
+.register img{
+  margin-bottom: 5rem;
 }
 
 .footer ul{
