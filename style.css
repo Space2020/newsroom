@@ -24,6 +24,27 @@ header{
   padding: 1rem;
 }
 
+
+input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    letter-spacing: 0.05rem;
+}
+
+button{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #1a77ff;
+  color: #fff;
+}
+
+input:hover{
+  border-bottom: 1px solid #1a77ff;
+}
+
 .form-inline{
   margin: 18px 0;
 }
